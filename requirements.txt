@@ -1,0 +1,8 @@
+tqdm
+lap==0.4.0
+tensorflow
+zhon==2.0.2
+scipy==1.11.3
+levenshtein==0.25.1
+scikit-learn
+numpy==1.26.0
