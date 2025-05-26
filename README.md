@@ -6,9 +6,6 @@ Using combinatorial optimization to solve entity alignment: An efficient unsuper
 ## Abstract:
 Entity alignment (EA) aims to discover unique equivalent entity pairs with the same meaning across different knowledge graphs (KG), which is a crucial step for expanding the scale of KGs. Existing EA methods commonly leverage graph neural networks (GNNs) to align entities. However, these methods inherit the complex structure of GNNs, which results in lower efficiency. Meanwhile, most EA methods are either limited in their performance due to insufficient utilization of available information or require extensive manual preprocessing to obtain additional information. Furthermore, seed alignment acquisition is challenging for most EA methods that rely on supervised learning. To address these challenges, this paper proposes a simple and effective unsupervised EA model named COEA. COEA leverages the entity name information to obtain reliable supplementary information for EA and enhances performance by combining text features captured by entity names with structural features of the KG. Importantly, COEA inherits the advantages of GNN while reducing redundancy. It only uses the way of aggregating neighbor features in graph convolutional network (GCN), and transforms the EA problems into combination optimization problems. Sufficient experimental of COEA on five datasets have validated the exceptional performance and generalization capabilities of the framework. COEA achieved the best performance in all performance indicators. Notably, the framework enables the rapid implementation of entity alignment with minimal computational delays.
 
-## Bilibili
-HIT-MCAD: https://space.bilibili.com/435747358
-
 ## Organization
 ```
 ./COEA
